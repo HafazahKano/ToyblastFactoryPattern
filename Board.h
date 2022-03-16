@@ -18,10 +18,11 @@ public:
 			{
 				if ((j + 1 + i) % 2 == 0)
 				{
-					array[i][j] = tilefactory.getTile("Bomb");
-				}
-				else {
 					array[i][j] = tilefactory.getTile("Rocket");
+				}
+				else 
+                                {
+					array[i][j] = tilefactory.getTile("Bomb");
 				}
 			}
 		}
